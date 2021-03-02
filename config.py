@@ -1,0 +1,27 @@
+
+WIN_WIDTH = 1024
+WIN_HEIGHT = 768
+FULLSCREEN_WIN_WIDTH = 1920
+FULLSCREEN_WIN_HEIGHT = 1080
+
+FPS = 60
+N_PIXELS = 100
+
+MIC_RATE = 44100
+#MIN_FREQUENCY = 200
+MIN_FREQUENCY = 20
+#MAX_FREQUENCY = 12000
+MAX_FREQUENCY = 15360
+#MAX_FREQUENCY = 22050
+
+N_FFT_BINS = 24
+#N_FFT_BINS = 10
+#N_FFT_BINS = 32
+
+MIN_VOLUME_THRESHOLD = 1e-7
+"""No music visualization displayed if recorded audio volume below threshold"""
+
+#N_ROLLING_HISTORY = 2
+N_ROLLING_HISTORY = 3
+"""Number of past audio frames to include in the rolling window"""
+
